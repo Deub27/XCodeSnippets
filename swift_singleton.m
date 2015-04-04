@@ -7,7 +7,7 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
 	//---- Singleton
-    class var instance : ClassName {
+    class var instance : #ClassName# {
 		struct Singleton {
 			static let instance = <ClassName>()
 		}
