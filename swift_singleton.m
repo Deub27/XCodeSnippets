@@ -9,7 +9,7 @@
 	//---- Singleton
 	class var instance : <ClassName> {
 		struct Singleton {
-			static let instance = SDEDataManager()
+			static let instance = <ClassName>()
 		}
 		return Singleton.instance
 	}
