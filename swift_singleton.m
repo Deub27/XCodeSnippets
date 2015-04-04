@@ -7,7 +7,7 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
 	//---- Singleton
-	class var instance : <C> {
+	class var instance : <ClassName> {
 		struct Singleton {
 			static let instance = SDEDataManager()
 		}
